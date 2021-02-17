@@ -10032,6 +10032,16 @@ footer img.brand-icon {
   height: 17px;
 }
 
+/* Users edit */
+.gravatar_edit {
+  margin: 15px auto;
+  text-align: center;
+}
+.gravatar_edit .gravatar {
+  float: none;
+  max-width: 100px;
+}
+
 /* User gravatar */
 section.user_info {
   padding-bottom: 10px;
