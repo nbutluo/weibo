@@ -33,7 +33,11 @@
 
                     <button type="submit" class="btn btn-primary">登录</button>
                 </form>
+                <div class="mt-3">
+                    还没有账号，<a href="{{ route('signup') }}">点击去注册</a>
+                </div>
             </div>
+
         </div>
     </div>
 @endsection
