@@ -8,3 +8,4 @@ Route::get('/help', 'StaticPagesController@help')->name('help');
 Route::get('/about', 'StaticPagesController@about')->name('about');
 
 // Route::get('/about', [StaticPagesController::class, 'about']);
+Route::get('signup', 'UserController@create')->name('signup');
