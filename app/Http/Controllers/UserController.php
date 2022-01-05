@@ -83,4 +83,13 @@ class UserController extends Controller
 
         return redirect()->route('users.show', $user->id)->with('success', '更新成功');
     }
+
+    public function destroy(User $user)
+    {
+        $this->authorize('destroy', $user);
+
+        $user->delete();
+
+        return back()->with('success', '删除成功');
+    }
 }
